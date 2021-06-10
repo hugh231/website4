@@ -1,0 +1,107 @@
+body {
+	background-color:#E6E6E6;
+}
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in1 {
+    -webkit-animation: fadeIn 5s ease-in 1 forwards;
+  animation: fadeIn 5s ease-in 1 forwards;
+  opacity: 0;
+}
+.fade-in2 {
+    -webkit-animation: fadeIn 2s ease-in 1 forwards;
+  animation: fadeIn 2s ease-in 1 forwards;
+  opacity: 0;
+}
+.fade-in3 {
+    -webkit-animation: fadeIn 12s ease-in 1 forwards;
+  animation: fadeIn 12s ease-in 1 forwards;
+  opacity: 0;
+}
+.fade-in4 {
+    -webkit-animation: fadeIn 8s ease-in 1 forwards;
+  animation: fadeIn 8s ease-in 1 forwards;
+  opacity: 0;
+}
+
+.is-paused {
+    -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.btn {
+  background: #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 5px;
+}
+
+body {
+  padding: 40px;
+}
+.div1 {
+	height:200px;
+	width:200px;
+	background-color:#E2A9F3;
+	opacity:.4;
+	margin:10px;
+}
+.div1:hover {
+		height:200px;
+		width:200px;
+		background-color:red;
+		opacity:.4;
+		margin:10px;
+}
+.div2 {
+	height:150px;
+	width:150px;
+	background-color:#FE642E;
+	opacity:.6;
+		margin:10px;
+}
+.div3:hover {
+	height:150px;
+	width:150px;
+	background-color:blue;
+	opacity:.6;
+		margin:10px;
+}
+.div3 {
+	height:100px;
+	width:100px;
+	background-color:#F4FA58;
+	opacity:.6;
+		margin:10px;
+}
+.div3:hover {
+	height:100px;
+	width:100px;
+	background-color:purple;
+	opacity:.6;
+		margin:10px;
+}
+.div4 {
+	height:50px;
+	width:50px;
+	background-color:#F5A9BC;
+	opacity:1;
+		margin:10px;
+}
+.div4:hover {
+	height:50px;
+	width:50px;
+	background-color:green;
+	opacity:1;
+		margin:10px;
+}
